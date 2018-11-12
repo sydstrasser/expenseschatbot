@@ -245,7 +245,7 @@ Now that you have explored the code, <b>right-click on “build.cmd” under Pro
                             urlOfUploadedImg = attachmentList.Current.ContentUrl;
 
                             // Create a request using a URL that can receive a post.   
-                            WebRequest request = WebRequest.Create("https://eastus.api.cognitive.microsoft.com/vision/v2.0/recognizeText?mode=Printed");
+                            WebRequest request = WebRequest.Create("https://northeurope.api.cognitive.microsoft.com/vision/v2.0/recognizeText?mode=Printed");
                             // Set the Method property of the request to POST.  
                             request.Method = "POST";
                             string postData = "{\"url\":\""+urlOfUploadedImg+"\"}";
@@ -276,7 +276,7 @@ Now that you have explored the code, <b>right-click on “build.cmd” under Pro
                             while (!foundOCRResult) {
                                 await Task.Delay(3000);
                                 request = WebRequest.Create(header);
-                                request.Headers.Add("Ocp-Apim-Subscription-Key", "8bf6f2a617814eebbdd4d31061a51e7b");
+                                request.Headers.Add("Ocp-Apim-Subscription-Key", "0222f42ba7d94109ac23ecb4b5d65401");
                                 response = request.GetResponse();
                                 dataStream = response.GetResponseStream();
                                 // Open the stream using a StreamReader for easy access.  
