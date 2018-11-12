@@ -27,7 +27,7 @@ Navigate to the website https://portal.azure.com and log in with your <b>Azure D
  In the next step, the wizard will give you fields you need to fill out with some information:
  *	<b>Bot name</b>: Enter a unique bot name. For example “ContosoExpenses + ‘your alias’”  
      * Note: The name must be globally unique, therefore add your alias.
- *	<b>Resource Group</b>: Use <b>existing resource group</b> and select the resource group that will be proposed in the drop-down bar
+ *	<b>Resource Group</b>: Create a <b>new resource group</b> and give it a name of your choice (note: the screenshot shows it not correctly)
  *	<b>Location</b>: select <b>Central US</b>
  *	<b>Pricing Tier</b>: <b>S1</b>
  * <b>App Name</b>: This should automatically be populated based on the Bot name you entered already: “ContosoExpenses-‘youralias’”
