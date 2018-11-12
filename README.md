@@ -252,7 +252,7 @@ Now that you have explored the code, <b>right-click on “build.cmd” under Pro
                             byte[] byteArray = Encoding.UTF8.GetBytes(postData);
                             // Set the ContentType property of the WebRequest.  
                             request.ContentType = "application/json";
-                            request.Headers.Add("Ocp-Apim-Subscription-Key", "8bf6f2a617814eebbdd4d31061a51e7b");
+                            request.Headers.Add("Ocp-Apim-Subscription-Key", "0222f42ba7d94109ac23ecb4b5d65401");
                             // Set the ContentLength property of the WebRequest.  
                             request.ContentLength = byteArray.Length;
                             // Get the request stream.  
