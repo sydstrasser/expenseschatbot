@@ -8,7 +8,7 @@ This guide will help you step by step to perform the tasks that are necessary to
 
 ### 1. Create a Bot Service Resource  
 
-Start the Lab by clicking on "Launch Lab" and open an InPrivate browser to ensure Azure prompts you to login instead of using your cached employee credentials (More info on how to perform this: https://support.microsoft.com/en-us/help/4026200/windows-browse-inprivate-in-microsoft-edge). Navigate to the website https://portal.azure.com and log in with your <b>Azure Demo Lab credentials</b>. On the start screen, in the left upper corner, you find the button “Create a resource” (as shown in the screenshot below).  
+Navigate to the website https://portal.azure.com and log in with your <b>Azure Demo Lab credentials</b>. On the start screen, in the left upper corner, you find the button “Create a resource” (as shown in the screenshot below).  
 
  ![Create a resource](https://raw.githubusercontent.com/samaea/expensesbotworkshop/master/images/1_create%20a%20resource.png)  
 
